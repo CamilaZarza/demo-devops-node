@@ -5,13 +5,13 @@ const app = express();
 app.get('/', (req, res) => {
   res.send(`
     <h1>Bienvenido al Servidor</h1>
-    <p>Este es un servidor básico utilizando Express.js</p>
+    <p>Este es un servidor básico utilizando Express.js 2.0</p>
   `);
 });
 app.get('/status', (req, res) => {
   res.json({
     status: 'ok',
-    version: '1.0'
+    version: '2.0'
   });
 });
 
